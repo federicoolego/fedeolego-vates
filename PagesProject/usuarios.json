@@ -1,0 +1,33 @@
+{
+  "test": {
+    "Standard": {
+      "email": "standard_user",
+      "password": "secret_sauce"
+    },
+    "LockedOut": {
+      "email": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  },
+  "dev": {
+    "Operador": {
+      "email": "operadorDev@saucedemo.com",
+      "password": "Nuevo12345"
+    },
+    "OperadorExterno": {
+      "email": "operadorExternoDev@saucedemo.com",
+      "password": "Nuevo12345"
+    }
+  },
+  "stg": {
+    "Operador": {
+      "email": "operadorStg@saucedemo.com",
+      "password": "Nuevo12345"
+    },
+    "OperadorExterno": {
+      "email": "operadorExternoStg@saucedemo.com",
+      "password": "Nuevo12345"
+    }
+
+  }
+}
