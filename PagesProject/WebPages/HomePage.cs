@@ -43,14 +43,10 @@ namespace PagesProject.WebPages
             btnLogin.Click();
 
             if (valido)
-            {
                 mensaje = driver.FindElement(By.XPath("//span[contains(text(),'Products')]")).Text.ToUpper();
-            }
+            
             else
-            {
-                mensaje = driver.FindElement(By.XPath("//h3[@data-test='error']")).Text;
-                
-            }
+                mensaje = driver.FindElement(By.XPath("//h3[@data-test='error']")).Text;                            
             
             return mensaje;
         }
